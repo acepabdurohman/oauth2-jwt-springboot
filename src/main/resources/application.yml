@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/posdb
+    username: root
+    password: admin1234
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+server:
+  port: 7777
+security:
+  oauth2:
+    resource:
+      filter-order: 3
