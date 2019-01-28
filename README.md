@@ -3,6 +3,8 @@ Testing how to make API secure with oauth2 combined with jwt
 
 This app is running in port 7777
 
+Import database sql from /static/db/pos-schema.sql
+
 # generate token 
 type : POST
 
